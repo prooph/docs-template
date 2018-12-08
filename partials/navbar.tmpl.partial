@@ -1,0 +1,17 @@
+<div class="inner-container">
+    <h1 class="site-logo">
+        <a href="/">
+            <img src="{{_rel}}logo.svg" alt="Prooph Logo">
+        </a>
+    </h1>
+    <ul class="site-navigation">
+        <li class="site-navigation__item"><a href="http://getprooph.org/">Website</a></li>
+        <li class="site-navigation__item"><a href="https://gitter.im/prooph/improoph">Community</a></li>
+    </ul>
+    <form class="navbar-form navbar-right" role="search" id="search">
+        <div class="form-group">
+            <input type="text" class="form-control" id="search-query" placeholder="Search the docs" autocomplete="off">
+        </div>
+    </form>
+    <a href="javascript:void(0)" class="site-navigation-toggle">Menu</a>
+</div>
